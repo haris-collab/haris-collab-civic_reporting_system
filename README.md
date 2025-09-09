@@ -26,30 +26,47 @@ Getting Started
 Prerequisites
 Node.js (v18 or higher)
 npm
+
+# Vist Now ~ https://civicvoices.netlify.app
 Installation & Setup
 # Clone the repository
+```
 git clone https://github.com/haris-collab/haris-collab-civic_reporting_system
+```
 
 # Navigate to the project
+```
 cd CivicReport
+```
 
 # Install dependencies
+```
 npm install
+```
 
 # Create a .env file and add your Supabase credentials
+```
 VITE_SUPABASE_URL=YOUR_SUPABASE_URL
 VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+```
 
 # Start the development server
+```
 npm run dev
-The application will be available at: http://localhost:5173
+```
+The application will be available at: ```http://localhost:5173```
 Deployment
 This project can be deployed easily on platforms like Netlify, Vercel, or AWS Amplify.
 Example: Deploying to Netlify
 Push your code to GitHub.
 Log in to Netlify and import your project from GitHub.
 Set build command:
+```
 npm run build
+```
 Set publish directory:
+```
 dist
+```
 Add your environment variables (Supabase credentials) in Netlify’s dashboard under Settings → Environment Variables.
+
